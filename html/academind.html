@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An academind Project</title>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/acedecss.css">
+  <link rel="stylesheet" href="../css/shared.css"> 
+</head>
+<body>
+    <header class="main-header">
+        <div>
+            <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+            </button>
+            <a class="home-url" href="academind.html">uHost</a>
+        </div>
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="name-nav__item one">
+                    <a href="./packages.html">Packages</a>
+                    <div class="name-nav__item__hover"></div> 
+                </li>
+                <li class="name-nav__item two">
+                    <a href="./customers.html">Customers</a>
+                    <div class="name-nav__item__hover"></div> 
+                </li>
+                <li class="name-nav__item three" id="name-nav__host">
+                    <a href="start-hosting.html" id="start-hosting">Start Hosting</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+           <li class="mobile-nav__item">
+                 <a href="packages.html">Packages</a>
+           </li>
+           <li class="mobile-nav__item">
+            <a href="customers.html">Customers</a>
+           </li>
+          <li class="mobile-nav__item mobile-nav__item--cta">
+        <a href="start-hosting.html">Start Hosting</a>
+          </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="backdrop"></div>
+        <div class="modal">
+            <h1 class="modal__title">Do you wish to continue?</h1>
+            <div class="modal__actions">
+              <a href="./start-hosting.html" class="modal__action">Yes!</a>
+              <button class="modal__action modal__action--negative">No!</button>
+            </div>
+        </div>
+        <section id= "product-review">
+            <h1> Get the Freedom You Deserve.</h1>
+        </section>
+        <section id="plans">
+             <h1 class="section-title">Choose Your Plan</h1>
+             <div class="plans-container">
+                 <div class="plans-container__item">
+                     <h2 class="plan-fr"> FREE </h2>
+                     <h2 class="plan-price">0$/Month</h2>
+                     <h3 class="plan-description">For hobby projects or small teams</h3>
+                     <ul class="name-nav__items">
+                         <li>1 workspace</li>
+                         <li>Unlimited Traffic</li>
+                         <li>10GB Storage</li>
+                         <li>Basic Support</li>
+                 </ul>
+                 <div class="plan-choose__plan">
+                    <a class="selected">Choose Plan</a>
+                </div>
+                 </div>
+
+                 <div class="plans-container__item plans-container__recommended">
+                    <h2 class="plan-fr">RECOMMENDED</h2>
+                    <h2 class="plan-plus">PLUS</h2>
+                    <h2 class="plan-price">29$/Month</h2>
+                    <h3 class="plan-description">For ambitious projects</h3>
+                    <ul class="name-nav__items">
+                        <li>5 workspaces</li>
+                        <li>Unlimited Traffic</li>
+                        <li>100GB Storage</li>
+                        <li>Plus Support</li>
+                    </ul>
+                    <div class="plan-choose__plan">
+                        <a class="selected">Choose Plan</a>
+                    </div>
+                </div>
+
+                <div class="plans-container__item">
+                    <h2 class="plan-fr"> PREMUIM </h2>
+                    <h2 class="plan-price">99$/Month</h2>
+                    <h3 class="plan-description">Your enterprise solution</h3>
+                    <ul class="name-nav__items">
+                        <li>100 workspace</li>
+                        <li>Unlimited Traffic</li>
+                        <li>Unlimited Storage</li>
+                        <li>Priority Support</li>
+                    </ul>
+                    <div class="plan-choose__plan">
+                        <a class="selected">Choose Plan</a>
+                    </div>
+                 
+                </div>
+        </section>
+        <section class="uHost-Pros">
+                 <header class="uHost-Pros__Header">
+                     Many Good Reasons to Stick Around.
+                 </header>
+                 <div class="uHost-Pros__list">
+                     <div class="uHost-Pros__list__item">
+                        <div class="uHost-Pros__list__item__circle"></div>
+                       <p> 3,857,000+ Trusted Customers.</p>
+                     </div>
+                     <div class="uHost-Pros__list__item">
+                        <div class="uHost-Pros__list__item__circle"></div>
+                       <p> 99.999% Uptime Guaranteed.</p>
+                     </div>
+                     <div class="uHost-Pros__list__item">
+                        <div class="uHost-Pros__list__item__circle"></div>
+                       <p>Lightning Fast CDN.</p>
+                     </div>
+                 </div>
+        </section>
+    </main>
+        <footer class="uHost-end__page">
+                <div class="uHost-end__page__things">
+                    <a href="./support">Support</a>
+                    <a href="./terms.html">Terms of Use</a>            
+                </div>
+            </footer>
+<script src="../js/acadeJs.js"></script>
+</body>
+</html>

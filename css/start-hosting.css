@@ -1,0 +1,100 @@
+
+
+.signup-page{
+    margin-top: 6rem;
+}
+
+.signup-information {
+    /*border: 2px solid rgb(44, 39, 39);
+    padding: 2rem;*/
+    margin: auto;
+    margin-bottom: 1rem;
+  /*  background-color: rgb(182, 180, 180);*/
+   /* width: 30%;*/
+   width: 100%;
+    border-radius: 0.8rem;
+}
+
+
+.signup-title{
+   text-align: center;
+   color: rgb(206, 36, 36);
+   font-size: 2rem;
+   padding-bottom: 1rem;
+}
+
+.signup-page label,
+.signup-page input:not([type="checkbox"]),
+.signup-page select{
+    display: block;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 1rem;
+    
+}
+
+.signup-page input:not([type="checkbox"]),
+.signup-page select{
+    border: 1px solid rgb(139, 129, 129);
+    padding: 0.25rem 0.5rem;
+    font: inherit;
+    border-radius: 10px;
+}
+
+.signup-page input:focus:not([type="checkbox"]),
+.signup-page select:focus
+{
+    outline: none;
+    background-color: #d8f3df ;
+    border-color: #2ddf5c;
+}
+
+[type="checkbox"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: white;
+    height: 1rem;
+    width: 1rem;
+    padding: 0.2rem 0.6rem;
+    border: 1px solid #ccc;
+    margin-right: 0.5rem;
+    outline: none;
+    cursor: pointer;
+}
+
+[type="checkbox"]:checked{
+    background-color: #2ddf5c;
+    border: 1px solid #159136;
+
+}
+
+
+#agree-terms + label {
+    display: inline-block;
+    width: auto;
+}
+
+button{
+    padding: 0.5rem;
+    background-color: #159136 ;
+    color: whitesmoke;
+    font-weight: 700;
+    border: 1px solid #159136;
+    border-radius: 0.4rem;
+    margin-top: 0.2rem;
+    display: block;
+}
+
+@media (min-width: 40rem){
+     .signup-page{
+        margin-top: 4.5rem;
+    }   
+    .signup-information {
+        width: 30%;
+        border: 2px solid rgb(139, 129, 129);
+        padding: 2rem;
+        background-color: rgb(182, 180, 180);
+    }
+
+}

@@ -1,0 +1,215 @@
+
+#product-review {
+ background: url("../img/igor-miske-oLhTLD-RBsc-unsplash.jpg") left 40% bottom 15%/cover no-repeat border-box;
+    /*background-image: url("../img/igor-miske-oLhTLD-RBsc-unsplash.jpg");
+    background-size: cover;
+    background-position: left bottom 20%; /* first value defines the left, the second defines the top etc
+    background-origin: border-box; 
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, red,green);*/
+    width: 100%;
+    height: 43vh;
+    color: white;
+    margin-top: 2.75rem;
+    position: relative;
+}
+
+#product-review h1 {
+    font-family:  "Anton", sans-serif;
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    color:  white;
+    margin: 0.625rem 0;
+}
+
+
+@media (min-width:40rem) {
+    #product-review {
+        height: 68vh;
+    }
+
+    section #plans{
+        width: 100%;
+    }
+
+    .plans-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .plans-container .plans-container__item {
+        width: 26.5%;
+      /*display: inline-block;*/
+    margin: 0.625rem 2.5rem;
+      max-width: 1000px;
+      min-width: 256px;
+    
+       
+    }
+
+    .plans-container .plans-container__item:hover {
+        height: 50%;
+        width: 26.5%;
+      }
+  
+    .plans-container .plans-container__recommended{
+        margin: 2.5rem;   
+    }
+    .plans-container__item:hover {
+        cursor: pointer;
+        height: 50%;
+        width: 30%;
+        background-color: #4ea84e;
+        padding: 50px 10px 10px 10px;   
+        transition: padding 0.3s; 
+    }
+    
+  }
+
+.section-title {
+    color: #2ddf5c;
+    text-align: center;
+    margin-top: 1.25rem;
+    font-weight: 700;
+}
+
+.plans-container {
+    height: 100%;
+    width: 100%;
+
+}
+
+.plans-container__item {
+    height: 50%;
+    background-color: #95cc95;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 10px 10px 10px;
+    margin: 10px 0;
+   
+}
+
+.plans-container__recommended {
+    background-color: #4ea84e;
+    padding: 50px 10px 10px 10px;   
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.plans-container__item * {
+    margin: 15px;
+}
+.plan-fr {
+    color: green;
+    text-align: center;
+    width: auto;
+}
+
+.plans-container__item:hover .plan-fr{
+     background-color: white;
+     box-shadow: 2px 2px black;
+     border-radius: 10px;
+     padding: 5px;
+     transition: padding 0.3s;
+}
+
+
+.plan-price{
+    color: rgb(226, 213, 213);
+}
+
+.plans-container__item:hover .plan-price{
+    color: rgb(47, 117, 47);
+}
+
+.plan-plus{
+    color: rgb(226, 213, 213);
+}
+
+.plans-offer {
+    margin : 0;
+    padding: 0;
+    list-style: none;
+}
+
+.plan-choose__plan{
+    background-color: rgb(4, 34, 4);
+   border-radius: 10px;
+    padding: 0.625rem;
+    
+}
+
+
+.plan-choose__plan a{
+    text-decoration: none;  
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+}
+
+.plan-choose__plan:hover, .plan-choose__plan:hover .selected{
+    background-color: white;
+    color: lawngreen;
+}
+
+
+.uHost-Pros {
+    background-color: rgb(214, 62, 88);
+    color: white;
+    max-width: 1600px;
+    font-size: large;
+    font-weight: 700;
+    padding: 1.25rem;
+    margin: 3.75rem 0;
+}
+
+.uHost-Pros__Header{
+    text-align: center;
+    width: 100%;
+    margin: 1.25rem;
+}
+
+.uHost-Pros__list{
+   width: 100%;
+   height: 100%;
+}
+
+.uHost-Pros__list__item{
+    margin: auto;
+    
+}
+
+.uHost-Pros__list__item__circle {
+   background-color: white;
+   border: 3px solid black;
+   width: 150px;
+   height: 150px;
+   display: inline-block;
+   border-radius: 50%;
+   text-align: center;
+   position: relative;
+   margin: 40px;
+   left: 20% ;
+}
+
+.uHost-Pros__list__item p {
+    text-align: center;
+}
+
+
+@media (min-width: 40rem) {
+    .uHost-Pros__list .uHost-Pros__list__item {
+        display: inline-block;
+        width: 33%;
+        margin: auto;    
+    }
+}
+
+

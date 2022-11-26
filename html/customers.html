@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/shared.css"> 
+    <link rel="stylesheet" href="../css/customer.css">
+    <title>Customer Page</title>
+</head>
+<body>
+    <div class="backdrop"></div>
+    <header class="main-header">
+        <div>
+            <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+            </button>
+            <a class="home-url" href="academind.html">uHost</a>
+        </div>
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="name-nav__item">
+                    <a href="./packages.html">Packages</a>
+                    <div class="name-nav__item__hover"></div> 
+                </li>
+                <li class="name-nav__item">
+                    <a href="./customers.html">Customers</a>
+                    <div class="name-nav__item__hover"></div> 
+                </li>
+                <li class="name-nav__item" id="name-nav__host">
+                    <a href="start-hosting.html" id="start-hosting">Start Hosting</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+           <li class="mobile-nav__item">
+                 <a href="packages.html">Packages</a>
+           </li>
+           <li class="mobile-nav__item">
+            <a href="customers.html">Customers</a>
+           </li>
+          <li class="mobile-nav__item mobile-nav__item--cta">
+        <a href="start-hosting.html">Start Hosting</a>
+          </li>
+        </ul>
+    </nav>
+    <main class="main">
+         <div>
+             <div class="testimonial" id="customer-1">
+                 <div class="testimonial__image__container">
+                     <img src="../img/customer-1.jpg" alt="Mike Statham Customer" class="testimonial__image">
+                 </div>
+                 <div class="testimonial__info">
+                     <h1 class="testimonial__name">Mike Statham</h1>
+                     <h2 class="testimonial__subtitle">Founder of
+                         <a href="tech-analysis.com">tech-analysis.com</a>
+                     </h2>
+                     <p class="testimonial__text">UHost helped me realise my project with a high network.</p>
+                 </div>
+             </div>
+
+             <div class="testimonial" id="customer-2">
+                <div class="testimonial__info">
+                    <h1 class="testimonial__name">John Mellow</h1>
+                    <h2 class="testimonial__subtitle">Hosts his videos on uHost.</h2>
+                    <p class="testimonial__text">I worked as a blogger and always looked for a good Hosting Page.</p>
+                </div>
+                <div class="testimonial__image__container">
+                    <img src="../img/customer-2.jpg" alt="Mike Statham Customer" class="testimonial__image">
+                </div>
+            </div> 
+         </div>
+    </main>
+
+    <footer class="uHost-end__page">
+        <nav>
+            <ul class="uHost-end__page__things">
+               
+                    <a href="#"> Support.</a>
+                    <a href="#">Terms of Use</a>
+            </ul>
+        </nav>
+    </footer>
+    <script src="../js/acadeJs.js"></script>
+</body>
+</html>
